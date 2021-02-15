@@ -1,0 +1,19 @@
+.whyWrapper {
+  background: #f4f5f7;
+}
+
+.why_title {
+  font-size: 2.2rem;
+  margin-bottom: 0.3em;
+}
+
+.features {
+  margin: 5em auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5em;
+}
+
+.feature_title {
+  margin: 1em 0;
+}

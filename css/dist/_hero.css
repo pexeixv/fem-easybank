@@ -1,0 +1,38 @@
+.main {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_content {
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  align-self: flex-start;
+}
+.main_text {
+  margin: auto;
+  padding-left: 2.2em;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.main_desc {
+  margin: 1em 0 2em;
+}
+.main_title {
+  font-size: 3.7rem;
+}
+.main_desc {
+  font-size: 1.2rem;
+  width: 42ch;
+}
+.main_hero {
+  flex: 1;
+  background: url(../img/my2.svg) no-repeat center center/cover;
+  height: 100vh;
+}
+.main_hero img {
+  height: 700px;
+}
