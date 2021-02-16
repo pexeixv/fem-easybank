@@ -84,7 +84,8 @@
     padding: 0 2em;
   }
   .main_desc {
-    max-width: unset;
+    max-width: 450px;
+    padding: 0 0.5em;
     margin: 1em auto 2em;
   }
   .main_hero {

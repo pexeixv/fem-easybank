@@ -24,4 +24,5 @@ p {
 body {
   font-family: "Public Sans", sans-serif;
   background: white;
+  overflow-x: hidden;
 }
