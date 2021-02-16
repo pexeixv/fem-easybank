@@ -14,3 +14,23 @@
 .feature
     &_title
         margin: 1em 0
+
+
+@media screen and ( max-width: 700px )
+    .why
+        text-align: center
+        &_desc
+            margin: auto
+            max-width: 350px
+
+    .features
+        grid-template-columns: 1fr
+    .feature
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-bottom: 2em
+        text-align: center
+        &_desc
+            max-width: 400px
+    

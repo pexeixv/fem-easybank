@@ -43,3 +43,36 @@
   align-items: flex-end;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding: 2em 0;
+    height: fit-content;
+    flex-direction: column;
+  }
+  .footer_right {
+    margin-top: 1.5em;
+    align-items: center;
+    gap: 1em;
+  }
+  .footer_left {
+    height: max-content;
+    display: block;
+  }
+  .footer_left1 {
+    margin-bottom: 2em;
+    gap: 2em;
+  }
+  .footer_left1 .socials {
+    width: max-content;
+  }
+  .footer_links {
+    align-items: center;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+  .footer_link {
+    margin: 0.8em 0;
+  }
+}
